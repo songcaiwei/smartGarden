@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>智慧园林</title>
+    <meta name="keywords" content="智慧园林,智慧城市,公园,花园,智能,自动识别,自动浇灌">
+    <meta name="description" content="花园全方位智能管理">
+    <link rel="stylesheet" type="text/css" href="css/H-ui.reset.css">
+    <link rel="stylesheet" type="text/css" href="css/public_head_nav.css">
+    <link rel="stylesheet" type="text/css" href="css/index-content.css">
+    <link rel="stylesheet" type="text/css" href="css/bottom.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+
+    <!--IE8及以下不支持getElementsByTagName的解决方法-->
+    <!--<script type="text/javascript" src="JavaScript/getEleByTagName.js"></script>-->
+    <script type="text/javascript" src="JavaScript/yundong4.js"></script>
+    <script type="text/javascript" src="JavaScript/index.js"></script>
+
+</head>
+<body>
+<div class="all_wrap">
+    <div class="headBar">
+        <div class="headBarCon">
+            <div class="leftBar">
+                <span>更“聪明”的园林</span>
+            </div>
+            <div class="rightBar">
+                <span>登录</span> <span>注册</span> <span>帮助</span>
+            </div>
+        </div>
+    </div>
+    <!--头部-->
+    <div class="head">
+        <div class="head_main">
+            <div class="head_logo">
+                <img src="./images/logoF.jpg" alt="LOGO">
+            </div>
+            <div class="weather">
+                <!--插件有异步数据请求，放在这里会阻塞渲染，通过"index.js"文件最后的代码插入-->
+                <!--<iframe allowtransparency="true" frameborder="0" width="410" height="64" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=2&z=3&t=1&v=2&d=2&bd=0&k=&f=&ltf=009944&htf=cc0000&q=0&e=1&a=1&c=54511&w=410&h=64&align=center"></iframe>-->
+            </div>
+            <div class="head_phone">
+                <img src="./images/phone.png" alt="电话"/>
+                <div>
+                    <p>联系电话</p>
+                    <p>0871-8888-8888</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Nav-->
+    <div class="nav">
+        <div class="nav_box">
+            <ul>
+                <li class="menu_list">
+                    <a href="#">首页</a>
+                    <div class="row"></div>
+                </li>
+                <li class="menu_list">
+                    <a href="#">园林概况</a>
+                    <div class="row">
+                        <a href="#">青瓷湖</a>
+                        <a href="#">大观园</a>
+                        <a href="#">银杏园</a>
+                        <a href="#">枫林溪涧</a>
+                    </div>
+                </li>
+                <li class="menu_list">
+                    <a href="#">新闻资讯</a>
+                    <div class="row"></div>
+                </li>
+                <li class="menu_list">
+                    <a href="#">园林风采</a>
+                    <div class="row">
+                        <a href="#">爱心献血</a>
+                        <a href="#">公益服务</a>
+                        <a href="#">关爱老人</a>
+                        <a href="#">共建园林</a>
+                    </div>
+                </li>
+                <li class="menu_list">
+                    <a href="#">园林门票</a>
+                    <div class="row"></div>
+                </li>
+                <li class="menu_list">
+                    <a href="#">咨询投诉</a>
+                    <div class="row"></div>
+                </li>
+            </ul>
+            <div class="search_box">
+                <input type="search" placeholder="输入搜索内容"> <img id="search" src="./images/search.png">
+            </div>
+        </div>
+    </div>
+    <!--banner-->
+    <div class="banner_wrap">
+        <div id="banner">
+            <ul id="banner_img" class="clearfix">
+                <li>
+                    <a href="#"><img src="./images/banner_0.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/banner_1.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/banner_2.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/banner_3.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/banner_4.jpg" alt=""></a>
+                </li>
+            </ul>
+            <ul id="banner_dot" class="clearfix"></ul>
+            <div id="prev"><i class="prevIcon iconfont">&#xe7ec;</i></div>
+            <div id="next"><i class="nextIcon iconfont">&#xe7eb;</i></div>
+        </div>
+    </div>
+    <!--主要景点-->
+    <div class="chapter">
+        <div class="chapter_head">
+            <div>主要景点概览</div>
+            <p>园林始建于公元2000年，经过经过十几年的不断改进，古今结合，因势而建，精心设计，加入了现代智能系统，是现代新型园林的代表作品。<br/> 园区景点主要有青瓷湖、大观园、银杏园、枫林溪涧、曲径通幽等景点。
+            </p>
+        </div>
+        <ul class="chapter_main clearfix">
+            <li>
+                <div class="chapter_person">
+                    <img src="./images/qingcihu.jpg" alt="">
+                    <div>青瓷湖</div>
+                    <p>凭借周围风景而构成，形式灵活多变。芙蓉榭的一半建在岸上，另一半伸向水面。境界绝妙，别有韵味。</p>
+                    <span class="chapter_more">
+                        <a href="#">MORE+</a>
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="chapter_person">
+                    <img src="./images/daguanyuan.jpg" alt="">
+                    <div>大观园</div>
+                    <p>灵空架于水波之上，伫立于水边、秀美倩巧。此榭又面临广池，实为夏日赏荷的好地方。</p>
+                    <span class="chapter_more">
+                        <a href="#">MORE+</a>
+                    </span>
+                </div>
+            </li>
+            <li>
+                <div class="chapter_person">
+                    <img src="./images/yinxingyuan.jpg" alt="">
+                    <div>银杏园</div>
+                    <p>在别有洞天靠左，叠有假山一座。沿假山上石径，有一座六角形的亭子位于山顶，这就是宜两亭。</p>
+                    <span class="chapter_more">
+                        <a href="#">MORE+</a>
+                    </span>
+                </div>
+            </li>
+            <li style="margin-right:0px;">
+                <div class="chapter_person">
+                    <img src="./images/fenglinyijian.jpg" alt="">
+                    <div>枫林溪涧</div>
+                    <p>可以在亭中观赏到他十分羡慕的中园景色，亦可眺望亭阁高耸的一番情趣，借亭入景，岂不妙哉！</p>
+                    <span class="chapter_more">
+                        <a href="#">MORE+</a>
+                    </span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!--园区新闻动态-->
+    <div class="chapter_wrap">
+        <div class="chapter">
+            <div class="chapter_head">
+                <div>园区新闻动态</div>
+            </div>
+            <div id="news" class="clearfix">
+                <div id="newsLeft">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./images/yishi.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/wudao.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/banner_1.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/banner_3.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/banner_4.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <div class="black"></div>
+                    <dl>
+                        <dd>越是独具特色、独具个性、独具差异性的小镇越爱去</dd>
+                        <dd>鸡足山禅修小镇等6个特色小镇被淘汰出创建名单</dd>
+                        <dd>基于走跑类运动容量的城市公园园路形态特征研究</dd>
+                        <dd>当代健康园林设计中的理论价值</dd>
+                        <dd>将园路细化为无走跑类运动园路</dd>
+                    </dl>
+                    <div id="btnLeft">
+                        <a class="iconfont">&#xe7ec;</a>
+                    </div>
+                    <div id="btnRight">
+                        <a class="iconfont">&#xe7eb;</a>
+                    </div>
+                </div>
+                <div id="newsRight">
+                    <div class="content_head_box">
+                        <div class="clearfix">
+                            <div class="content_head">最新动态/<em>NEWS</em></div>
+                            <div class="more">
+                                <a href="#">MORE+</a>
+                            </div>
+                        </div>
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                    </div>
+                    <ul id="newsContentList">
+                        <li>
+                            <a href="#">阿根廷各界高度评价习近平主席国事访问阿根廷各界高度评价习近平主席国事访问阿根廷各界高度评价习近平主席国事访问</a>
+                            <span>2018/12/12</span>
+                        </li>
+                        <li>
+                            <a href="#">借亭入景，岂不妙哉！</a>
+                            <span>2018/12/12</span>
+                        </li>
+                        <li>
+                            <a href="#">沿假山上石径，有一座六角形的亭子位于山顶</a>
+                            <span>2018/12/12</span>
+                        </li>
+                        <li>
+                            <a href="#">阿根廷各界高度评价习近平主席国事访问成果国事访问</a>
+                            <span>2018/12/12</span>
+                        </li>
+                        <li>
+                            <a href="#">可以在亭中观赏到他十分羡慕的中园景色</a>
+                            <span>2018/12/12</span>
+                        </li>
+                        <li>
+                            <a href="#">为何美国关切芬太尼程度不亚于贸易战?</a>
+                            <span>2018/12/12</span>
+                        </li>
+                        <li>
+                            <a href="#">可以在亭中观赏到他十分羡慕的中园景色</a>
+                            <span>2018/12/12</span>
+                        </li>
+                        <li>
+                            <a href="#">亦可眺望亭阁高耸的一番情趣，借亭入景，岂不妙哉！</a>
+                            <span>2018/12/12</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--园林风采-->
+    <div class="chapter">
+        <div class="chapter_head">
+            <div>园林风采</div>
+        </div>
+        <div id="fengcai">
+            <div class="content_head_box">
+                <div class="clearfix">
+                    <div class="content_head">园林风采/<em>DEMEANOR</em></div>
+                    <div class="more">
+                        <a href="#">MORE+</a>
+                    </div>
+                </div>
+                <div class="line3"></div>
+                <div class="line4"></div>
+            </div>
+            <ul id="fengcai_main" class="clearfix">
+                <li>
+                    <div class="fengcaiImg"><img src="./images/aixin.jpg" alt=""></div>
+                    <p>职工踊跃报名参与爱心献血</p>
+                </li>
+                <li>
+                    <div class="fengcaiImg"><img src="./images/guanhuai.jpg" alt=""></div>
+                    <p>职工爱心服务体现人文关怀</p>
+                </li>
+                <li>
+                    <div class="fengcaiImg"><img src="./images/weiwen.jpg" alt=""></div>
+                    <p>空巢老人关切慰问</p>
+                </li>
+                <li style="margin-right:0px;">
+                    <div class="fengcaiImg"><img src="./images/team.jpg" alt=""></div>
+                    <p>集思广益，共建新园林</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--友情链接-->
+    <div class="friendship">
+        <div class="friendship_link">
+            <h3>友情链接</h3>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">呈贡洛龙公园</a>
+                </li>
+                <li>
+                    <a href="#">盘龙宝海公园</a>
+                </li>
+                <li>
+                    <a href="#">眠山森林公园</a>
+                </li>
+                <li>
+                    <a href="#">瀑布公园</a>
+                </li>
+                <li>
+                    <a href="#">黑龙潭公园</a>
+                </li>
+                <li>
+                    <a href="#">滇池度假区</a>
+                </li>
+                <li>
+                    <a href="#">野鸭湖风景区</a>
+                </li>
+                <li>
+                    <a href="#">翠湖公园</a>
+                </li>
+                <li>
+                    <a href="#">大观楼公园</a>
+                </li>
+                <li>
+                    <a href="#">海东湿地公园</a>
+                </li>
+                <li>
+                    <a href="#">野鸭湖风景区</a>
+                </li>
+                <li>
+                    <a href="#">滇池度假区</a>
+                </li>
+                <li>
+                    <a href="#">翠湖公园</a>
+                </li>
+                <li>
+                    <a href="#">大观楼公园</a>
+                </li>
+                <li>
+                    <a href="#">海东湿地公园</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--公司信息-->
+    <div>
+        <div class="footer">
+            <div>
+                <span>关于我们公园</span> <span>联系我们</span> <span>服务热线：0871-88888888</span>
+            </div>
+            <div>
+                <span>免责声明：本网站部分内容由用户自行上传，如权利人发现存在误传其作品情形，请及时与本站联系。</span>
+            </div>
+            <div>
+                <span>© 2000-2018</span> <span>www.gongyuan.com</span> <span>云南公园管理有限公司</span> <span>保留所有权利</span>
+            </div>
+            <div>
+                <span>滇ICP备10000000号-1</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!--登录-->
+    <form action="" method="post">
+        <div id="login_wrap">
+            <div class="login_black"></div>
+            <div class="login">
+                <p class="close_login iconfont">&#xe7fc;</p>
+
+                <div id="saoma_login">
+                    <div class="login_logo">
+                        <img src="./images/logoF.jpg" alt="LOGO"> <span>扫码登录</span>
+                    </div>
+                    <div class="two_code">
+                        <p class="iconfont">&#xe600;</p>
+                    </div>
+                    <div>请使用QQ扫码登录</div>
+                    <div class="login_desc">
+                        <span class="iconfont icon-anquan">&nbsp;&nbsp;安全</span><span class="iconfont icon-kuaisu">&nbsp;&nbsp;高效</span><span class="iconfont icon-bianjieshenghuo">&nbsp;&nbsp;快捷</span>
+                    </div>
+                </div>
+                <div id="username_login">
+                    <div class="login_logo">
+                        <img src="./images/logoF.jpg" alt="LOGO"> <span>用户名密码登录</span>
+                    </div>
+                    <div id="username_enter">
+                        <input type="text" placeholder="用户名/邮箱/手机号"/> <input type="password" placeholder="输入密码"/>
+                    </div>
+                    <div class="enter">
+                        <input type="button" id="user_login_true" value="登录"/>
+                    </div>
+                    <div class="help">
+                        <a>忘记密码？</a>
+                        <a>手机短信验证码登录</a>
+                    </div>
+                </div>
+                <div id="register">
+                    <div class="login_logo">
+                        <img src="./images/logoF.jpg" alt="LOGO"> <span>用户注册</span>
+                    </div>
+                    <div id="register_enter">
+                        <input type="text" name="username" id="username" placeholder="请输入用户名" autocomplete="off"/>
+                        <span id="verity_name">支持字母或者字母和数字的组合，不能为纯数字</span>
+                        <input type="password" name="password" id="password" placeholder="输入密码"/>
+                        <span id="verity_password">长度为6~10个字母、数字均可</span>
+                    </div>
+                    <div class="enter">
+                        <input id="now_register" type="button" value="立即注册"/>
+                    </div>
+                    <div class="help">
+                        <a href="#"></a>
+                        <a id="back_login">我已注册，马上登录</a>
+                    </div>
+                </div>
+
+
+                <div id="success_login">
+                    <div class="success">
+                        <p class="iconfont icon-chenggong"></p>
+                    </div>
+                    <div id="success_msg">&nbsp;</div>
+                </div>
+
+
+                <div id="other_login">
+                    <span>用户名登录</span><span style="display:none">扫码登录</span>
+
+                    <span>立即注册</span>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

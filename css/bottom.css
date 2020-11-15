@@ -1,0 +1,8 @@
+.friendship{margin-top:56px;background:#ffffff;}
+.friendship_link,.footer{width:1140px;margin:0 auto;padding:40px 30px;}
+.friendship_link h3{display:inline-block;font-size:18px;line-height:30px;margin-bottom:16px;}
+.friendship_link li{width:126px;margin-left:42px;float:left;}
+.friendship_link li a{color:#666666;}
+
+.footer{text-align:center;font-size:14px;line-height:26px;color:#666666;}
+.footer span{padding:0 18px;}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="./JavaScript/yundong4.js"></script>
+  <title>Title</title>
+</head>
+<body style="margin:0px;">
+<div id="div1" style="width:100px;height:100px;background:#fb5353;position:absolute;"></div>
+<script>
+    var oDiv1 = document.getElementById("div1");
+    starMove(oDiv1, {height : 800}, f1)
+
+    function f1(){
+        starMove(oDiv1, {top : 700, height : 100}, f2)
+    }
+
+    function f2(){
+        starMove(oDiv1, {width : 800}, f3)
+    }
+
+    function f3(){
+        starMove(oDiv1, {width : 100, left : 700}, f4)
+    }
+    function f4(){
+        starMove(oDiv1, {top : 0, height : 800}, f5)
+    }
+
+    function f5(){
+        starMove(oDiv1, {height : 100}, f6)
+    }
+
+    function f6(){
+        starMove(oDiv1, {width : 800, left : 0}, f7)
+    }
+
+    function f7(){
+        starMove(oDiv1, {width : 100})
+    }
+</script>
+</body>
+</html>

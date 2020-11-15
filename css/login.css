@@ -1,0 +1,32 @@
+#login_wrap{display:none;}
+.login_black{background:#000000;position:fixed;top:0px;z-index:99;width:100%;height:100%;opacity:0.6;-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);}
+.login{width:360px;display:flex;display: -webkit-flex; /* Safari */flex-direction:column;position:fixed;top:50%;left:50%;margin-left:-150px;margin-top:-210px;z-index:100;background:#ffffff;padding-top:40px;}
+#saoma_login,#username_login,#username_enter,#register,#register_enter,#success_login{display:flex;display: -webkit-flex; /* Safari */flex-direction:column;overflow:hidden}
+#username_login{}
+.login *{margin:auto}
+.close_login{position:absolute;right:0px;top:0px;padding:10px;font-size:24px;color:#cccccc;line-height:1;}
+.login_logo img{width:60px;}
+.login_logo span{font-size:20px;}
+.two_code p,.success p{font-size:160px;line-height:1;margin-top:20px;}
+.two_code p{width:160px;height:160px;}
+.login_desc{margin-top:8px;}
+.login_desc span{font-size:12px;color:#999999;padding:0 14px;}
+#other_login{background:#0089cc;color:#ffffff;height:60px;display: flex;-webkit-flex-direction: row;flex-direction: row;justify-content:space-between;width:100%;margin-top:40px;overflow:hidden;}
+.close_login,#other_login span{cursor:pointer}
+
+
+
+#username_enter,#register_enter{margin-top:40px;}
+
+#username_enter input,#register_enter input{width:240px;height:20px;display:inline-block;padding:10px;border:1px solid #cccccc;}
+#username_enter input{margin-bottom:20px;}
+#register_enter span{width:262px;font-size:12px;color:#999999;margin-bottom:20px;}
+
+
+#now_register,#user_login_true{display:inline-block;width:262px;height:42px;margin-top:20px;background:#0089cc;color:#ffffff;cursor:pointer;border:none;}
+.help,.back_login{width:262px;display: flex;-webkit-flex-direction: row;flex-direction: row;}
+.help{justify-content:space-between;}
+.help a{margin:6px 0 0 0;font-size:12px;color:#999999;}
+
+.success p{font-size:84px;color:#0089cc;margin-top:60px;margin-bottom:26px;}
+#success_msg{padding-bottom:16px;}
